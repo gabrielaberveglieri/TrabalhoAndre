@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Literata:ital,opsz,wght@0,7..72,200..900;1,7..72,200..900&display=swap');
+
+* {
+    font-family: "Literata", serif;
+    margin-left: 15px;
+    margin-top: 15px;
+
+}
+
+/* CARRINHO */
+
+.box-item1, .box-item2, .box-item3 {
+    width: 608px;
+    height: 80px;
+    border-radius: 15px;
+    background-color: #ffffff;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex; /* Layout em linha */
+    align-items: center; /* Alinha verticalmente */
+    padding: 10px;
+    gap: 15px; /* Espaçamento horizontal entre os itens */
+    margin-bottom: 40px;
+}
+
+
+/* Estilo para o texto */
+.box-item1 h3, .box-item2 h3, .box-item3 h3 {
+    margin: 0;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.box-item1 p, .box-item2 p, .box-item3 p {
+    margin: 0;
+    font-size: 14px;
+    color: #555;
+}
+
+
+
+.product-image {
+    width: 80px;
+    height: 82px;
+    border-radius: 15px;
+}
+
+
+
+.info {
+    display: flex;
+    flex-direction: column; /* Organiza o texto em coluna */
+    justify-content: center; /* Centraliza verticalmente */
+    flex: 1; /* Ocupa o espaço disponível */
+    padding-left: 10px; /* Espaçamento à esquerda da imagem */
+}
+
+.info h3 {
+    margin: 0;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.info .preco {
+    margin: 0;
+    font-size: 14px;
+    color: #555;
+}
+
+/* Estilo para o ícone de lixeira */
+.trash img {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+    margin-left: auto; /* Empurra para o canto direito */
+}
+
+
+/* PAGAMENTO */
+
+.retangulo-pagamento {
+    border-radius: 20px;
+    background-color: #204C4F;
+    color: white;
+    height: 700px;
+    width: 600px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* Estilo para as imagens dos cartões */
+.retangulo-pagamento .cartoes {
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+.retangulo-pagamento .cartoes img {
+    width: 100px;  /* Ajuste o tamanho conforme necessário */
+    height: auto;
+}
+
+/* Estilo dos inputs dentro do retângulo */
+.retangulo-pagamento input {
+    width: 100%; 
+    max-width: 400px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* Estilo dos botões e labels */
+.retangulo-pagamento button {
+    padding: 10px;
+    background-color: #3B7A7F;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.retangulo-pagamento button:hover {
+    background-color: #2F5F62;
+}
+
+/* Estilo para o conteúdo de preços */
+.retangulo-pagamento div ul {
+    list-style: none;
+    padding: 0;
+}
+
+.retangulo-pagamento div ul li {
+    margin-bottom: 10px;
+}
+
+
+
+

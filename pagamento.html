@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="pagamento.css">
+    <title>Pagamento</title>
+</head>
+<body>
+    
+    <div class="resumo-compra">
+        <h1>Continuar compra</h3>
+        <h2>Carrinho de compra</h2>
+        <p>Você tem três itens no carrinho</p>
+
+        
+        <div class="box-geral">
+            <div class="box-item1">
+                <img class="product-image" src="assets-pagamento/images-pagamento/roupa1.jpg" alt="roupa1">
+                <div class="info">
+                    <h3>Roupa 1</h3>
+                    <p class="preco">R$ 160</p>
+                </div>
+                <div class="trash">
+                    <img src="assets-pagamento/images-pagamento/trash.png" alt="">
+                </div>
+            </div>
+            
+
+            <div class="box-item2">
+                <img class="product-image" src="assets-pagamento/images-pagamento/roupa2.jpg" alt="roupa2">
+                <div class="info">
+                    <h3>Roupa 2</h3>
+                    <p class="preco">R$ 200</p>
+                </div>
+                <div class="trash">
+                    <img src="assets-pagamento/images-pagamento/trash.png" alt="">
+                </div>
+            </div>
+
+            <div class="box-item3">
+                <img class="product-image" src="assets-pagamento/images-pagamento/roupa3.jpg" alt="roupa3">
+                <div class="info">
+                    <h3>Roupa 3</h3>
+                    <p class="preco">R$ 140</p>
+                </div>
+                <div class="trash">
+                    <img src="assets-pagamento/images-pagamento/trash.png" alt="">
+                </div>
+            </div>
+            
+        </div>
+
+        <div class="retangulo-pagamento">
+            <h3>Detalhes do Cartão</h3>
+            
+            <label for="nome-cartao">Nome no Cartão</label>
+            <input type="text" id="nome-cartao">
+            
+            <label for="numero-cartao">Número do Cartão</label>
+            <input type="text" id="numero-cartao">
+            
+            <label for="vencimento-cartao">Data de Vencimento</label>
+            <input type="date" id="vencimento-cartao">
+            
+            <label for="cvv">CVV</label>
+            <input type="text" id="cvv" maxlength="3">
+            
+            <!-- Imagens dos Cartões -->
+            <div class="cartoes">
+                <img src="assets-pagamento/images-pagamento/Rectangle 10.png" alt="Cartão 1">
+                <img src="assets-pagamento/images-pagamento/Rectangle 11.png" alt="Cartão 2">
+                <img src="assets-pagamento/images-pagamento/Rectangle 12.png" alt="Cartão 3">
+                <img src="assets-pagamento/images-pagamento/Rectangle 9.png" alt="Cartão 4">
+            </div>
+            
+            <div>
+                <ul>
+                    <li>Subtotal</li>
+                    <li>Frete</li>
+                    <li>Total</li>
+                </ul>
+                <ul>
+                    <li>R$ 100</li>
+                    <li>R$ 10</li>
+                    <li>R$ 120</li>
+                </ul>
+            </div>
+            <button>Continuar</button>
+        </div>
+    </div>
+
+    <!-- <div class="quantity-control">
+        <button onclick="decrement()">&#x25BC;</button>
+        <input type="text" id="quantity" value="1" readonly>
+        <button onclick="increment()">&#x25B2;</button>
+    </div> -->
+</body>
+</html>
+
